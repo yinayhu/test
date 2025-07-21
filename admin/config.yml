@@ -13,7 +13,7 @@ collections:
   - name: "resources"
     label: "Resources"
     files:
-      file: "content/content.json"
+    - file: "content/content.json"
       label: "What To Bring To A Tournament"
       name: "bring"
       fields: 
