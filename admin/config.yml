@@ -1,6 +1,6 @@
 backend:
-  name: git
-  repo: yinayhu/yina-test
+  name: github
+  repo: yinayhu/test
   branch: main
 
 auth:
