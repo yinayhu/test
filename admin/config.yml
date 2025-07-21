@@ -1,0 +1,23 @@
+backend:
+  name: git
+  repo: yinayhu/yina-test
+  branch: main
+
+auth:
+  redirect_url: https://yina-test.netlify.app/admin/callback
+
+media_folder: "static/images"
+public_folder: "images"
+
+collections:
+  - name: "resources"
+    label: "Resources"
+    files:
+      file: "content/content.json"
+      label: "What To Bring To A Tournament"
+      name: "bring"
+      fields: 
+        - { label: "Title", name: "captionLaptopTitle", widget: "string" }
+        - { label: "Caption", name: "captionLaptopText", widget: "text" }
+        - { label: "Title", name: "captionChargerTitle", widget: "string" }
+        - { label: "Caption", name: "captionChargerText", widget: "text" }
